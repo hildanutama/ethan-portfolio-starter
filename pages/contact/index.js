@@ -42,7 +42,7 @@ const Contact = () => {
     const sanitizedData = {
       name: "Name: " + DOMPurify.sanitize(name),
       email: "Email: " + DOMPurify.sanitize(email),
-      subject: "Subject: " + DOMPurify.sanitize(subject),
+      subject:  DOMPurify.sanitize(subject),
       message: "Message: " + DOMPurify.sanitize(message),
     };
 
