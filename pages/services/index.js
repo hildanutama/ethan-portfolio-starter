@@ -30,7 +30,7 @@ const Services = () => {
             animate="show" 
             exit="hidden"
             className='mb-4 max-w-[400px] mx-auto lg:mx-0:'>
-            I bring a wealth of experience in transforming complex datasets into meaningful narratives that fuel business growth and innovation.
+           From data mining to website development, I am on a journey to merge analytical skills with a passion for coding. Eager to excel as a versatile data analyst.
           </motion.p>
         </div>
         <motion.div 
