@@ -13,18 +13,45 @@ const workSlider = {
     {
       images: [
         {
-          title: 'Business Intelligence For Creative Economy Development',
+          title: 'Business Intelligence For Hospital Management performance',
           path: '/p-3.png',
-          demo: "https://www.novypro.com/project/business-intelligence-in-the-strategy-for-developing-the-creative-economic-potential-of-bojonegoro-district",
+          demo: "https://www.novypro.com/project/business-management-indicator-for-hospital",
         },
       ],
     },
     {
       images: [
         {
-          title: 'Business Intelligence For Creative Economy Development',
+          title: 'Sentiment Analysis with web scrapping',
           path: '/osn.png',
-          demo: "https://www.novypro.com/project/business-intelligence-in-the-strategy-for-developing-the-creative-economic-potential-of-bojonegoro-district",
+          demo: "https://github.com/hildanutama/",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: 'Risk Analytics In Banking & Financial Services',
+          path: '/risk.jpg',
+          demo: "https://github.com/hildanutama/",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: 'Market basket Analysis using Apriori',
+          path: '/mba.png',
+          demo: "https://github.com/hildanutama/",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: 'Data Exporation Marriege and Divorce analysis',
+          path: '/map.png',
+          demo: "https://public.tableau.com/app/profile/hildan.utama/vizzes",
         },
       ],
     },
@@ -33,7 +60,7 @@ const workSlider = {
         {
           title: 'Website Direktori Ekspor',
           path: '/p-1.png',
-          demo: "https://www.novypro.com/project/business-intelligence-in-the-strategy-for-developing-the-creative-economic-potential-of-bojonegoro-district",
+          demo: "https://www.exportdirektori.com/",
         
         },
       ],
@@ -85,9 +112,9 @@ const WorkSlider = () => {
                       <div className='text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200'> 
                         <div className="justify-around">
                           {/* Button */}
-                          <button className=' text-white font-bold py-2 px-4 rounded-full'>
+                          <button className=' text-accent font-bold py-2 px-4 rounded-full '>
                             <a href={image.demo} target="_blank" rel="noopener noreferrer">
-                              <BsArrowRight/>
+                              <BsArrowRight />
                             </a>
                           </button>
                         </div>
