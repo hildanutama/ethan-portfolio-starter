@@ -30,8 +30,10 @@ module.exports = {
         explosion: 'url("/bg-explosion.png")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
-        site: 'url("/site-bg.svg")',
+        site: 'url("/cbg.svg")',
       },
+      /* Flip on the X axis */
+      
       animation: {
         'spin-slow': 'spin 6s linear infinite',
       },
